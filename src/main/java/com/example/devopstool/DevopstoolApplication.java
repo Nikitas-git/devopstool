@@ -6,7 +6,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.web.bind.annotation.GetMapping;
 
 @SpringBootApplication
-public class DevopstoolApplication {
+public class DevopstoolApplication extends SpringBootServletInitializer {
 	
 	@GetMapping("/AWS")
 	public String HelloAWS()
